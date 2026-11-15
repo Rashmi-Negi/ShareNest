@@ -1,0 +1,47 @@
+body {
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.configuration-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #f7f9f5;
+  color: #23372c;
+  font-family: "DM Sans", sans-serif;
+}
+
+.configuration-card {
+  width: min(100%, 560px);
+  padding: 32px;
+  border: 1px solid #e4eae1;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 16px 40px rgba(32, 62, 43, 0.09);
+}
+
+.configuration-card h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(24px, 5vw, 32px);
+  line-height: 1.2;
+}
+
+.configuration-card p {
+  margin-top: 14px;
+  color: #657367;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.configuration-card code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #edf5eb;
+  color: #315f40;
+  font-size: 0.9em;
+}
